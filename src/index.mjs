@@ -6,6 +6,7 @@ import { gql, GraphQLClient } from 'graphql-request'
 /**
  * Configuration
  */
+
 const DEBUG = false;
 
 const main = (async () => {
