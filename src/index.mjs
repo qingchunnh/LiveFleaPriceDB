@@ -23,9 +23,9 @@ const main = (async () => {
         await fetchTarkovDevData(graphQLClient, 'pve');
 
         // Fetch the latest prices.json and handbook.json from SPT-AKI's git repo
-        await downloadFile('https://raw.githubusercontent.com/sp-tarkov/server/refs/heads/3.10.1-dev/project/assets/database/templates/handbook.json', 'akihandbook.json');
-        await downloadFile('https://raw.githubusercontent.com/sp-tarkov/server/refs/heads/3.10.1-dev/project/assets/database/templates/items.json', 'akiitems.json');
-        await downloadFile('https://raw.githubusercontent.com/sp-tarkov/server/refs/heads/3.10.1-dev/project/assets/database/templates/prices.json', 'akiprices.json');
+        await downloadFile('https://raw.githubusercontent.com/sp-tarkov/server/refs/heads/3.10.2-dev/project/assets/database/templates/handbook.json', 'akihandbook.json');
+        await downloadFile('https://raw.githubusercontent.com/sp-tarkov/server/refs/heads/3.10.2-dev/project/assets/database/templates/items.json', 'akiitems.json');
+        await downloadFile('https://raw.githubusercontent.com/sp-tarkov/server/refs/heads/3.10.2-dev/project/assets/database/templates/prices.json', 'akiprices.json');
     }
 
     processData('regular');
