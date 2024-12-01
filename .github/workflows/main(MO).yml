@@ -1,4 +1,4 @@
-name: LiveFleaPrice Fetcher manually operated
+name: LiveFleaPrice Fetcher (manually operated)
 
 on:
   push:
